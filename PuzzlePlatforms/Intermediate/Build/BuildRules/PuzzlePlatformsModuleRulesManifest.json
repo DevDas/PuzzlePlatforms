@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\Udemy course\\Unreal Engine C++\\PuzzlePlatforms\\PuzzlePlatforms\\Source\\PuzzlePlatforms\\PuzzlePlatforms.Build.cs",
+		"E:\\Udemy course\\Unreal Engine C++\\PuzzlePlatforms\\PuzzlePlatforms\\Source\\PuzzlePlatforms.Target.cs",
+		"E:\\Udemy course\\Unreal Engine C++\\PuzzlePlatforms\\PuzzlePlatforms\\Source\\PuzzlePlatformsEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.2"
+}

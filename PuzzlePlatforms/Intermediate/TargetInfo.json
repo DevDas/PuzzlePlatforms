@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PuzzlePlatforms",
+			"Path": "E:\\Udemy course\\Unreal Engine C++\\PuzzlePlatforms\\PuzzlePlatforms\\Source\\PuzzlePlatforms.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PuzzlePlatformsEditor",
+			"Path": "E:\\Udemy course\\Unreal Engine C++\\PuzzlePlatforms\\PuzzlePlatforms\\Source\\PuzzlePlatformsEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
