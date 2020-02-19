@@ -51,7 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{77AE3295-81AC-4F1C-9711-2025D96A0532}</ProjectGuid>
+    <ProjectGuid>{90420C1C-BD0E-403B-89D7-DEA14F861C55}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>PuzzlePlatforms</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>
