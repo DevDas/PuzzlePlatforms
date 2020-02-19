@@ -54,4 +54,14 @@
       <Filter>Source\PuzzlePlatforms</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PuzzlePlatforms\MovingPlatform.h">
+      <Filter>Source\PuzzlePlatforms</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PuzzlePlatforms\MovingPlatform.cpp">
+      <Filter>Source\PuzzlePlatforms</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
