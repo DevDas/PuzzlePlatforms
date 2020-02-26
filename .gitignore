@@ -1,12 +1,6 @@
 
 .vs/
 
-Binaries/
-
-Intermediate/
-
-Saved
-
 # Visual Studio 2015 database file
 *.VC.db
 
@@ -79,3 +73,4 @@ Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
