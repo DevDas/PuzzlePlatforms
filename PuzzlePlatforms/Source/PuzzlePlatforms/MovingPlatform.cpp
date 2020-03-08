@@ -40,5 +40,5 @@ void AMovingPlatform::Tick(float DeltaTime)
 		auto Direction = (GlobalTargetLocation - GlobalStartLocation).GetSafeNormal(); // B-A Vector
 		Location += Speed * DeltaTime * Direction;
 		SetActorLocation(Location);	
-	}
+	} 
 }

@@ -1,0 +1,7 @@
+E:\Udemy course\Unreal Engine C++\PuzzlePlatforms\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\Definitions.PuzzlePlatforms.h
+E:\Udemy course\Unreal Engine C++\PuzzlePlatforms\PuzzlePlatforms\Source\PuzzlePlatforms\PlatformTrigger.h
+E:\Udemy course\Unreal Engine C++\PuzzlePlatforms\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\PlatformTrigger.generated.h
+E:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/BoxComponent.h
+E:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+E:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+E:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoxComponent.generated.h
