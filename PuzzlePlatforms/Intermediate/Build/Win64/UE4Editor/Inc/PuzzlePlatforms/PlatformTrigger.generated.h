@@ -119,7 +119,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlatformTrigger); \
 
 #define PuzzlePlatforms_Source_PuzzlePlatforms_PlatformTrigger_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__TriggerVolume() { return STRUCT_OFFSET(APlatformTrigger, TriggerVolume); } \
-	FORCEINLINE static uint32 __PPO__PressurePad() { return STRUCT_OFFSET(APlatformTrigger, PressurePad); }
+	FORCEINLINE static uint32 __PPO__PressurePad() { return STRUCT_OFFSET(APlatformTrigger, PressurePad); } \
+	FORCEINLINE static uint32 __PPO__PlatformsToTrigger() { return STRUCT_OFFSET(APlatformTrigger, PlatformsToTrigger); }
 
 
 #define PuzzlePlatforms_Source_PuzzlePlatforms_PlatformTrigger_h_9_PROLOG

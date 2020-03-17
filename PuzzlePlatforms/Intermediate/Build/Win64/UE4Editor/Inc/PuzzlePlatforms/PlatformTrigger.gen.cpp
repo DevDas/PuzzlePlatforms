@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodePlatformTrigger() {}
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	PUZZLEPLATFORMS_API UFunction* Z_Construct_UFunction_APlatformTrigger_OnOverlapEnd();
+	PUZZLEPLATFORMS_API UClass* Z_Construct_UClass_AMovingPlatform_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 // End Cross Module References
@@ -187,6 +188,11 @@ void EmptyLinkFunctionForGeneratedCodePlatformTrigger() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlatformsToTrigger_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_PlatformsToTrigger;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlatformsToTrigger_Inner;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PressurePad_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PressurePad;
@@ -213,6 +219,14 @@ void EmptyLinkFunctionForGeneratedCodePlatformTrigger() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlatformTrigger_Statics::NewProp_PlatformsToTrigger_MetaData[] = {
+		{ "Category", "PlatformTrigger" },
+		{ "ModuleRelativePath", "PlatformTrigger.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_APlatformTrigger_Statics::NewProp_PlatformsToTrigger = { "PlatformsToTrigger", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlatformTrigger, PlatformsToTrigger), METADATA_PARAMS(Z_Construct_UClass_APlatformTrigger_Statics::NewProp_PlatformsToTrigger_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlatformTrigger_Statics::NewProp_PlatformsToTrigger_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlatformTrigger_Statics::NewProp_PlatformsToTrigger_Inner = { "PlatformsToTrigger", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AMovingPlatform_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APlatformTrigger_Statics::NewProp_PressurePad_MetaData[] = {
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
@@ -231,6 +245,8 @@ void EmptyLinkFunctionForGeneratedCodePlatformTrigger() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APlatformTrigger_Statics::NewProp_TriggerVolume = { "TriggerVolume", nullptr, (EPropertyFlags)0x00400000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APlatformTrigger, TriggerVolume), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APlatformTrigger_Statics::NewProp_TriggerVolume_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APlatformTrigger_Statics::NewProp_TriggerVolume_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APlatformTrigger_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlatformTrigger_Statics::NewProp_PlatformsToTrigger,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlatformTrigger_Statics::NewProp_PlatformsToTrigger_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlatformTrigger_Statics::NewProp_PressurePad,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APlatformTrigger_Statics::NewProp_TriggerVolume,
 	};
@@ -261,7 +277,7 @@ void EmptyLinkFunctionForGeneratedCodePlatformTrigger() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APlatformTrigger, 213829620);
+	IMPLEMENT_CLASS(APlatformTrigger, 50562478);
 	template<> PUZZLEPLATFORMS_API UClass* StaticClass<APlatformTrigger>()
 	{
 		return APlatformTrigger::StaticClass();
