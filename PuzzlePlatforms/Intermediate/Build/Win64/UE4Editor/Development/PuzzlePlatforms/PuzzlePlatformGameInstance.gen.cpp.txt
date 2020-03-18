@@ -1,0 +1,5 @@
+E:\Udemy course\Unreal Engine C++\PuzzlePlatforms\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Development\PuzzlePlatforms\Definitions.PuzzlePlatforms.h
+E:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+E:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\Udemy course\Unreal Engine C++\PuzzlePlatforms\PuzzlePlatforms\Source\PuzzlePlatforms/PuzzlePlatformGameInstance.h
+E:\Udemy course\Unreal Engine C++\PuzzlePlatforms\PuzzlePlatforms\Intermediate\Build\Win64\UE4Editor\Inc\PuzzlePlatforms\PuzzlePlatformGameInstance.generated.h

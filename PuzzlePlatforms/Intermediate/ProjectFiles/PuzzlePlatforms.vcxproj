@@ -278,7 +278,9 @@
     <ClCompile Include="..\..\Source\PuzzlePlatforms\PlatformTrigger.cpp" />
     <ClInclude Include="..\..\Source\PuzzlePlatforms\PlatformTrigger.h" />
     <None Include="..\..\Source\PuzzlePlatforms\PuzzlePlatforms.Build.cs" />
+    <ClCompile Include="..\..\Source\PuzzlePlatforms\PuzzlePlatformGameInstance.cpp" />
     <ClCompile Include="..\..\Source\PuzzlePlatforms\PuzzlePlatforms.cpp" />
+    <ClInclude Include="..\..\Source\PuzzlePlatforms\PuzzlePlatformGameInstance.h" />
     <ClInclude Include="..\..\Source\PuzzlePlatforms\PuzzlePlatforms.h" />
     <ClCompile Include="..\..\Source\PuzzlePlatforms\PuzzlePlatformsCharacter.cpp" />
     <ClInclude Include="..\..\Source\PuzzlePlatforms\PuzzlePlatformsCharacter.h" />

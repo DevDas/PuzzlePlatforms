@@ -67,4 +67,14 @@
     </ClInclude>
     <None Include="cpp.hint" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PuzzlePlatforms\PuzzlePlatformGameInstance.h">
+      <Filter>Source\PuzzlePlatforms</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PuzzlePlatforms\PuzzlePlatformGameInstance.cpp">
+      <Filter>Source\PuzzlePlatforms</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
