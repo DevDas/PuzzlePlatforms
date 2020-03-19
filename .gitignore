@@ -76,3 +76,5 @@ DerivedDataCache/*
 
 *.state
 *.umap
+*.bin
+PuzzlePlatforms/Binaries/Win64/PuzzlePlatforms.pdb
